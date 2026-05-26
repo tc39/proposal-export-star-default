@@ -1,12 +1,12 @@
 # ECMAScript Proposal: Include default export in `export * from 'module'`
 
-**Stage:** 0
+**Stage:** 1
 
-**Author:** Guy Bedford
+**Author**: Nicolò Ribaudo (former author: Guy Bedford)
 
-**Reviewers:** Caridy Patiño
+**Reviewers:** Guy Bedford, Caio Lima
 
-**Specification:** http://guybedford.github.io/proposal-export-star-default/
+**Specification:** http://tc39.es/proposal-export-star-default/
 
 ## Motivation
 
