@@ -8,6 +8,10 @@
 
 **Specification:** http://tc39.es/proposal-export-star-default/
 
+**Presentations:**
+- 2016-11: Presented for Stage 1, and did not get consensus ([notes](https://github.com/tc39/notes/blob/main/meetings/2016-11/nov-29.md#12iid-proposal-to-reform-the-spec-to-include-default-export-in-export--from-module))
+- 2026-05: Presented for Stage 1, and got consensus ([slides](https://docs.google.com/presentation/d/1IKj6GdnvI25gbqq_GUH-LQZOyfp0W1NFWc0hD4LU4CU), [notes](https://github.com/tc39/notes/blob/main/meetings/2026-05/may-20.md#export-all-from-for-stage-1))
+
 ## Motivation
 
 In the current specification, `export * from 'module'` will export all named exports, **except for
