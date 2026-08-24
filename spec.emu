@@ -20,6 +20,10 @@ contributors: Nicolò Ribaudo (previously Guy Bedford, Caridy Patiño)
 <emu-clause id="sec-ecmascript-language-scripts-and-modules" number="16">
   <h1>ECMAScript Language: Scripts and Modules</h1>
 
+  <emu-note type="editor">
+    <p>While not shown in this diff, as part of merging this proposal we should also rename ~all-but-default~ to ~all~ in the modules machinery.</p>
+  </emu-note>
+
   <emu-clause id="sec-modules" number="2">
     <h1>Modules</h1>
 
