@@ -442,5 +442,30 @@ contributors: Nicolò Ribaudo (previously Guy Bedford, Caridy Patiño)
         </emu-clause>
       </emu-clause>
     </emu-clause>
+
+    <emu-clause id="sec-exports" number="3">
+      <h1>Exports</h1>
+
+      <emu-clause id="sec-static-semantics-exportentriesformodule" number="5" type="sdo">
+        <h1>
+          Static Semantics: ExportEntriesForModule (
+            _module_: a ModuleRequest Record or *null*,
+          ): a List of ExportEntry Records
+        </h1>
+        <dl class="header">
+        </dl>
+        <emu-grammar>ExportFromClause : `*`</emu-grammar>
+        <emu-alg>
+          1. Let _entry_ be the ExportEntry Record { [[ModuleRequest]]: _module_, [[ImportName]]: <del>~all-but-default~</del><ins>~all~</ins>, [[LocalName]]: *null*, [[ExportName]]: *null* }.
+          1. Return « _entry_ ».
+        </emu-alg>
+      </emu-clause>
+    </emu-clause>
   </emu-clause>
 </emu-clause>
+
+<emu-annex id="sec-additions-and-changes-that-introduce-incompatibilities-with-prior-editions">
+  <h1>Additions and Changes That Introduce Incompatibilities with Prior Editions</h1>
+  <emu-note type="editor">This should be Annex F</emu-note>
+  <p><ins><emu-xref href="#sec-static-semantics-exportentriesformodule"></emu-xref>, <emu-xref href="#sec-getexportednames"></emu-xref>, <emu-xref href="#sec-resolveexport"></emu-xref>: In ECMAScript XXXX, `export * from "mod"` started re-exporting all of the exports of `mod`. In previous editions it used to exclude the one named `default`.</ins></p>
+</emu-annex>
